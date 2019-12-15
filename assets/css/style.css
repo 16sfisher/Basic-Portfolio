@@ -22,7 +22,7 @@
 }
 .mainname{
 	font-size: 29px;
-    color: #cccccc;
+    color: #ffffff;
     text-align: center;
     padding-top: 15px;
 }
@@ -37,12 +37,11 @@
 }
 .aboutme {
     width: 918px;
-    height: auto;
+    height: 600px;
     margin: 0 auto;
-    margin-top: 35px;
     border: 1px solid #dddddd;
-    margin-bottom: 100px;
     padding: 20px;
+    background-color: white;
 }
 .h2aboutme {
     color: #4aaaa5;
@@ -82,6 +81,17 @@ p {
 	position: relative; 
 	float: left;
 }
-main {background-image: url("embossed-diamond.png");
+main {background-image: url("../images/papyrus/papyrus.png");
     background-repeat: repeat;
+}
+.submit-btn {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    font-size: 25px;
+}
+span {
+    color: #ffffff;
+    background-color: #4aaaaf;
 }
